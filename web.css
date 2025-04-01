@@ -1,0 +1,394 @@
+html{
+    font-size: 10px;
+}
+
+a{text-decoration: none; color: black}
+
+.nav_space{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.navigation_icon{
+    font-family: monospace;
+    font-size: 2.5rem;
+}
+
+.font_complement_1{
+    font-size: 4.5rem;
+    font-family: Arial;
+    color: #959595;
+}
+
+.complement_space{
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.complement_space_2{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.font_complement_2{
+    font-size: 2rem;
+    font-family: monospace;
+}
+
+.complement_section{
+    background-color: #faeded;
+}
+
+.font_1{
+    color: #faeded;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_first_half_1{
+    width: 35%;
+}
+
+.home_second_half_1{
+    width: 45%;
+}
+
+.home_first_half_2{
+    width: 40%;
+}
+
+.home_second_half_2{
+    width: 40%;
+}
+
+.body_home_1{
+    height: 35rem;
+}
+
+.aaaa{
+    padding-left: 5rem;
+    padding-right: 15rem;
+}
+
+.font_2{
+    font-family: Verdana, sans-serif;
+    font-size: 3.5rem;
+    color: black;
+}
+
+.font_3{
+    font-family: Verdana, sans-serif;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.font_4{
+    font-family: Verdana, sans-serif;
+    font-size: 2rem;
+    color: black;
+}
+
+.home_logo_1{
+    width: 20rem;
+}
+
+.map_icon_home{
+    font-size: 5rem;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.but-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.but-container .btn {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    font-size: 3rem;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 25%;
+}
+
+.but-container .btn:hover {
+    background-color: black;
+    color: white;
+    
+}
+
+.choose_me{
+    width: 40%;
+}
+
+.choose_me_below{
+    width: 27%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.my_services{
+    width: 80%;
+    background-color: aquamarine;
+}
+
+.third_box_1{
+    width: 25%;
+    background-color: aquamarine;
+}
+
+.third_box_2{
+    width: 25%;
+    background-color: aquamarine;
+}
+
+.third_box_3{
+    width: 25%;
+    background-color: aquamarine;
+}
+
+.shop_location{
+    width: 40rem;
+}
+
+.anish_below{
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.anish_below_service_section{
+    width: 90%;
+    font-family: monospace;
+    font-size: 2rem;
+    color: black;
+}
+
+.bottom_hr{
+    height:.1rem;
+    border-width:0;
+    width:90%;
+    color:green;
+    background-color:green
+}
+
+.anish_below_social{
+    width: 90%;
+}
+
+.anish_transformation{
+    width: 30%;
+}
+
+.home_transformation{
+    width: 30rem;
+}
+
+.font_groome_with_anish{
+    font-family: monospace;
+    font-size: 3.5rem;
+    color: black;
+}
+
+.groome_with_anish{
+    width: 80%;
+}
+
+.below_social_logo{
+    font-size: 3.5rem;
+}
+
+.anish_below_social_font{
+    font-family: Verdana, sans-serif;
+    font-size: 2rem;
+    color: black;
+}
+
+.anish_below_social_font_1{
+    font-family: Verdana, sans-serif;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.anish_below_social_logo{
+    font-family: Verdana, sans-serif;
+    font-size: 2rem;
+    color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.thumbnail {
+    cursor: pointer;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.overlay:active {
+    display: flex;
+}
+
+.gallery_first_half{
+    width: 29%;
+    background-color: aquamarine;
+}
+
+.gallery_middle_half{
+    width: 24%;
+    background-color: aquamarine;
+}
+
+.gallery_image_home{
+    height: 40rem;
+}
+
+.my_photo_gallery{
+    width: 82%;
+    background-color: aquamarine;
+}
+
+.my_discount{
+    width: 60%;
+    background-color: aquamarine;
+}
+
+.discounts_offers{
+    width: 100%;
+}
+
+.space_discount{
+    width: 3%;
+}
+
+.gallery_images{
+    width: 40%;
+    background-color: aquamarine;
+}
+
+.gallery_images_1{
+    width: 80%;
+    background-color: aquamarine;
+}
+
+.gallery_image_gallery{
+    height: 60rem;
+}
+
+.rajat_symbol{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2.5rem;
+    color: #DE3163;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.my_service_table{
+    width: 100%;
+}
+
+.height_sample{
+    height: auto;
+}
+
+.social_links_instagram{
+    font-family: monospace;
+    font-size: 2rem;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 998px){
+    .navigation{
+        width: 70%;
+        }
+    .navigation_icon{
+        font-size: 4rem;
+        }
+}
+
+
+
+
+
+
+
+
+@media(max-width: 998px){
+    html{
+        font-size: 44%;
+        }
+
+}
+
+@media(max-width: 768px){
+    html{
+        font-size: 28%;
+        }
+
+}
+
+
+
+
+
