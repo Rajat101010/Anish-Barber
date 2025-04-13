@@ -1,210 +1,52 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Anish Barber</title>
-        <link rel="stylesheet" href="web.css">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <center>
-            <br>
-            <table  order="1" class="navigation">
-                <tr>
-                    <td><font class="navigation_icon">
-                        <a href="index.html">
-                            <center>
-                            Home
-                            </center>
-                        </a></font></td>
-                    <td class="nav_space"></td>
-                    <td><font class="navigation_icon">
-                        <a href="gallery.html">
-                            <center>
-                            Gallery
-                            </center>
-                        </a></font></td>
-                    <td class="nav_space"></td>
-                    <td><font class="navigation_icon">
-                        <a href="video.html">
-                            <center>
-                            <b>Video</b>
-                            </center>
-                        </a></font></td>
-                    <td class="nav_space"></td>
-                    <td><font class="navigation_icon">
-                        <a href="https://maps.app.goo.gl/mdfDj8nc9PBrGRAK8?g_st=aw">
-                            <center>
-                            Location
-                            </center>
-                        </a></font>
-                    </td>
-                </tr>
-            </table>
-        </center>
+.head_1_font_4{
+    font-size: 8rem;
+    font-family: Verdana, sans-serif;
+    color: black;
+}
 
-        <br><br><br><br><br>
-        
-        <center>
-            <div class="container">
-                <div class="gallery_images_1">
-                    <br><br>
-                    <font class="font_2">
-                        <b>
-                            Haircut<br>
-                        </b>
-                    </font>
-                    <br><br><br>
-                </div>
-            </div>
-            <div class="container">
-                <div class="gallery_images">
-                    <a href="https://www.instagram.com/barber_anish?igsh=MWZzcGs3NHduNjk2eA%3D%3D&utm_source=qr ">
-                        <img src="thumbnail_1.jpg" class="gallery_image_gallery"><br><br><br>
-                    </a>
-                </div>
-                <div class="gallery_images">
-                    <a href="https://www.instagram.com/barber_anish?igsh=MWZzcGs3NHduNjk2eA%3D%3D&utm_source=qr ">
-                        <img src="thumbnail_2.jpg" class="gallery_image_gallery "><br><br><br>
-                    </a>
-                </div>
-            </div>
-        </center>
+.types_of_works{
+    width: 100%;
+}
 
-        <br><br><br><br>
-        
-        <center>
-            <div class="container">
-                <div class="gallery_images_1">
-                    <br><br>
-                    <font class="font_2">
-                        <b>
-                            Haircut Result<br>
-                        </b>
-                    </font>
-                    <br><br><br>
-                </div>
-            </div>
-            <div class="container">
-                <div class="gallery_images">
-                    <a href="https://www.instagram.com/barber_anish?igsh=MWZzcGs3NHduNjk2eA%3D%3D&utm_source=qr ">
-                        <img src="thumbnail_3.jpg" class="gallery_image_gallery"><br><br>
-                    </a>
-                    <a href="https://www.instagram.com/barber_anish?igsh=MWZzcGs3NHduNjk2eA%3D%3D&utm_source=qr ">
-                        <img src="thumbnail_4.jpg" class="gallery_image_gallery"><br><br><br>
-                    </a>
-                </div>
-                <div class="gallery_images">
-                    <a href="https://www.instagram.com/barber_anish?igsh=MWZzcGs3NHduNjk2eA%3D%3D&utm_source=qr ">
-                        <img src="thumbnail_5.jpg" class="gallery_image_gallery"><br><br>
-                    </a>
-                    <a href="https://www.instagram.com/barber_anish?igsh=MWZzcGs3NHduNjk2eA%3D%3D&utm_source=qr ">
-                        <img src="thumbnail_6.jpg" class="gallery_image_gallery"><br><br><br>
-                    </a>
-                </div>
-            </div>
-        </center>
+@media(max-width: 998px){
+    .head_1_font_4{
+        font-size: 10rem;
+        font-family: Verdana, sans-serif;
+        color: black;
+    }
+}
 
+span{
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    animation: display-text 12s linear infinite;
+    animation-delay: calc(-3s * var(--i));
+}
 
+@keyframes display-text{
+    25%, 100%{
+        display: none;
+    }
+}
 
+span::before{
+    content: attr(data-text);
+    position: absolute;
+    width: 0;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: fill-text 3s linear infinite;
+    text-shadow: 0 0 2px black;
+    font-weight: 500;
+}
 
-        <br><br><br><br><br><br><br>
-
-        <div class="container">
-            <div class="anish_below">
-                <center>
-                    <br>
-                    <table order="1" class="anish_below_service_section">
-                        <tr>
-                            <td align="center"><b>Adult Haircut</b></td>
-                            <td align="center"><b>Beard Trim</b></td>
-                            <td align="center"><b>Shaving</b></td>
-                            <td align="center"><b>Kids Haircut</b></td>
-                            <td align="center"><b>Beard Grooming</b></td>
-                        </tr>
-                    </table>
-                    <br>
-                    <hr class="bottom_hr">
-                </center>
-            </div>
-        </div>
-        <div class="container">
-            <div class="anish_below">
-                <center>
-                    <br>
-                    <table order="1" class="anish_below_social">
-                        <tr>
-                            <td width="32%" colspan="2">
-                                <center>
-                                    <font class="anish_below_social_font">
-                                    <b>Social Media</b>
-                                    </font>
-                                    <br><br>
-                                </center>
-                            </td>
-                            <td width="24%" rowspan="3">
-                                <font class="anish_below_social_font_1">
-                                Skin Care<br>
-                                Hair Treatement<br>
-                                Beard Treatement
-                                </font>
-                            </td>
-                            <td width="22%" rowspan="3">
-                                <font class="anish_below_social_font_1">
-                                Men's Haircut<br>
-                                Children Haircut<br>
-                                Hair Black Shine
-                                </font>
-                            </td>
-                            <td width="19%" rowspan="3">
-                                <font class="anish_below_social_font_1">
-                                Shaving (Regular)<br>
-                                Beard Care<br>
-                                Beard Grooming
-                                </font>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="10%" align="right">
-                                <font class="anish_below_social_logo">
-                                    <a href="https://www.instagram.com/barber_anish?igsh=MWZzcGs3NHduNjk2eA%3D%3D&utm_source=qr ">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
-                                </font>
-                            </td>
-                            <td>
-                                <font class="social_links_instagram">
-                                    <a href="https://www.instagram.com/barber_anish?igsh=MWZzcGs3NHduNjk2eA%3D%3D&utm_source=qr ">
-                                        barber_anish
-                                    </a>
-                                </font>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="10%" align="right">
-                                <font class="anish_below_social_logo">
-                                    <a href="https://www.instagram.com/anish.5546?igsh=aTN6OXE0NDM0cjk4&utm_source=qr">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
-                                </font>
-                            </td>
-                            <td>
-                                <font class="social_links_instagram">
-                                    <a href="https://www.instagram.com/anish.5546?igsh=aTN6OXE0NDM0cjk4&utm_source=qr">
-                                        anish.5546
-                                    </a>
-                                </font>
-                            </td>
-                        </tr>
-                    </table>
-                    <br>
-                    <font class="rajat_symbol">
-                        Create your Happiness
-                    </font>
-                    <br><br><br>
-                </center>
-            </div>
-        </div>
-    </body>
-</html>
+@keyframes fill-text{
+    10%, 100%{
+        width: 0;
+    }
+    60%, 90%{
+        width: 100%;
+    }
+}
