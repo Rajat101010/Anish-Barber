@@ -4,6 +4,12 @@ html{
 
 a{text-decoration: none; color: black}
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .nav_space{
     padding-left: 2rem;
     padding-right: 2rem;
@@ -17,7 +23,8 @@ a{text-decoration: none; color: black}
 .font_complement_1{
     font-size: 4.5rem;
     font-family: Arial;
-    color: #959595;
+    color: yellowgreen;
+    text-shadow: 0 0 10px white;
 }
 
 .complement_space{
@@ -32,21 +39,16 @@ a{text-decoration: none; color: black}
 
 .font_complement_2{
     font-size: 2rem;
-    font-family: monospace;
+    font-family: Verdana, sans-serif;
 }
 
-.complement_section{
-    background-color: #faeded;
-}
-
-.font_1{
-    color: #faeded;
-}
-
-.container {
+.home_space_top {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 3px solid black;
+    border-radius: 25px;
+    width: 90%;
 }
 
 .home_first_half_1{
@@ -55,6 +57,9 @@ a{text-decoration: none; color: black}
 
 .home_second_half_1{
     width: 45%;
+}
+.home_first_second_half_space{
+    width: 5%;
 }
 
 .home_first_half_2{
@@ -67,11 +72,6 @@ a{text-decoration: none; color: black}
 
 .body_home_1{
     height: 35rem;
-}
-
-.aaaa{
-    padding-left: 5rem;
-    padding-right: 15rem;
 }
 
 .font_2{
@@ -156,21 +156,13 @@ a{text-decoration: none; color: black}
 .my_services{
     width: 80%;
     background-color: aquamarine;
+    border-radius: 25px;
 }
 
 .third_box_1{
-    width: 25%;
+    width: 80%;
     background-color: aquamarine;
-}
-
-.third_box_2{
-    width: 25%;
-    background-color: aquamarine;
-}
-
-.third_box_3{
-    width: 25%;
-    background-color: aquamarine;
+    border-radius: 25px;
 }
 
 .shop_location{
@@ -275,16 +267,6 @@ a{text-decoration: none; color: black}
     display: flex;
 }
 
-.gallery_first_half{
-    width: 29%;
-    background-color: aquamarine;
-}
-
-.gallery_middle_half{
-    width: 24%;
-    background-color: aquamarine;
-}
-
 .gallery_image_home{
     height: 40rem;
 }
@@ -292,11 +274,13 @@ a{text-decoration: none; color: black}
 .my_photo_gallery{
     width: 82%;
     background-color: aquamarine;
+    border-radius: 25px;
 }
 
 .my_discount{
     width: 60%;
     background-color: aquamarine;
+    box-shadow: 0 0 10px red;
 }
 
 .discounts_offers{
@@ -360,11 +344,12 @@ a{text-decoration: none; color: black}
 
 @media(max-width: 998px){
     .navigation{
-        width: 70%;
-        }
+        width: 35%;
+    }
+
     .navigation_icon{
-        font-size: 4rem;
-        }
+        font-size: 3rem;
+    }
 }
 
 
